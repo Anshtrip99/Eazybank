@@ -1,0 +1,43 @@
+.container1{
+    animation:movetoright 1s ease-in-out;
+    animation-delay: 2s; 
+    animation-direction: reverse;
+    animation-fill-mode: backwards;
+}
+
+@keyframes movetoright{
+    0%{
+        transform: translateX(0px);}
+   100%{
+    transform: translateX(-700px);
+   }
+}
+.bg2{
+    animation:movetoleft 1s ease-in-out;
+    animation-delay: .5s;
+    animation-direction: reverse;
+    animation-fill-mode: backwards;
+
+}
+@keyframes movetoleft{
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(1000px);
+    }
+}
+.bg1{
+    animation:movetoleft 1s ease-in-out;
+    animation-delay: 3s;
+    animation-direction: reverse;
+    animation-fill-mode: backwards;
+}
+@keyframes movetoleft {
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(1000px);
+}
+}
